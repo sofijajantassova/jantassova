@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+int main() {
+	/*int catage, dogsage;
+	cin >> catage>>dogsage;
+	if (catage > 0 && catage <= 25) { cout << "Ok cats age" << endl; }
+	else cout << "unrealistic catage" << endl;
+
+	if (dogsage > 0 && dogsage <= 30) { cout << "Ok dogs age" << endl; }
+	else cout << "unrealistic dogsage" << endl;
+
+	cout << "Exit";*/
+
+	/*int mark, age, height;
+	cin >> mark >> age >> height;
+	if (mark > 0 && mark <= 10) { cout << "Ok correct mark" << endl; }
+	else cout << "unrealistic mark" << endl;
+
+	if (age > 6 && age <= 18) { cout << "Ok correct age" << endl; }
+	else cout << "unrealistic age" << endl;
+
+	if (height > 120 && height <= 200) { cout << "Ok correct height" << endl; }
+	else cout << "unrealistic height" << endl;
+
+	cout << "Exit";*/
+
+	/*int age = 14;
+	string p = "123", pin;
+	cin >> pin;
+	if (p == pin) {
+		cout << "ok"; cout << age;
+	}
+	else  cout << "wrong p";*/
+
+	int age = 14;
+	string username = "sofija", login;
+	string p = "123", pin;
+	cin >> login >> pin;
+	if(username==login){
+		cout << "ok";
+	else cout << "wrong username";
+		if (p == pin) {
+			cout << "ok"; cout << age;
+		else cout << "wrong pin";
+
+}
