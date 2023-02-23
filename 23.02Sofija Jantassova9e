@@ -1,0 +1,88 @@
+#include <vector>
+#include <iostream>
+using namespace std;
+int main()
+{
+	/*vector <int> num{1,2,3,1,2};
+	cout << num[0] << num[1] << num[2] << num[3] << num[4];
+	if (num[0] == 1)cout << "1. element has a one" << endl;
+	if (num[1] == 2)cout << "2. element has a one" << endl;
+	if (num[2] == 3)cout << "3. element has a one" << endl;
+	if (num[3] == 4)cout << "4. element has a one" << endl;
+
+	if (num[0] == 4)cout << "1. element has a four" << endl;
+	if (num[1] == 3)cout << "2. element has a one" << endl;
+	if (num[2] == 2)cout << "3. element has a one" << endl;
+	if (num[3] == 1)cout << "4. element has a one" << endl;
+	
+	vector <string> countries{ "USA","UK","CH","IND","CA","AUS" };
+	vector <string> code{ "+1","+44","+86","+91","+1","+61" };
+	string num, cod;
+	cin >> num >> cod;
+	if (code[0] == atb)cout << countries[0];
+	if (code[1] == atb)cout << countries[1];
+	if (code[2] == atb)cout << countries[2];
+	if (code[3] == atb)cout << countries[3];
+	if (code[4] == atb)cout << countries[4];
+	if (code[5] == atb)cout << countries[5];
+	cout << cod << num;
+}
+vector<int> num{ 3,8,7,4 }
+vector <string> name{ "Anna", "Antons", "Vlads", "Artemijs" };
+cout << "ievadi atzimi" << endl;
+int n;
+cin >> n;
+if (num[0] == n)cout << name[0];
+if (num[1] == n)cout << name[1];
+if (num[2] == n)cout << name[2];
+if (num[3] == n)cout << name[3];
+if (num[0]) != n && num[2] != n && num[2] != n && num[3] != n)
+
+vector <int> num{ 2,3,5,7 };
+cout << (num[0]*num[0]<< endl;
+cout << (num[1] * num[1] << endl;
+cout << (num[2] * num[2] << endl;
+cout << (num[3] * num[3] << endl;
+
+
+#include
+
+using namespace std;
+
+int main()
+
+{
+vectorsvetki <string> svetki { "par Latvijas neatkaribu krituso karaviru pieminas diena", "Latvijas Republikas proklamesanas diena" };
+vectordatums <string> date{ "11.novembris", "18.novembris"};
+string atb;
+cout << "ja vai ne";
+cin >> atb;
+if (atb == "ja")cout << svetki[0] << date[0] << svetki[1] << date[1] << svetki[2] << date[2];
+else cout << "goodbye"endl;*/
+
+	/*vector <int> a{-2,-4,-6,-8,-10,0,+2,+4,+6,+8};
+	int i = 0;
+	if (a[0] > 0) i++;
+	if (a[1] > 0) i++;
+	if (a[2] > 0) i++;
+	if (a[3] > 0) i++;
+	if (a[4] > 0) i++;
+	if (a[5] > 0) i++;
+	if (a[6] > 0) i++;
+	if (a[7] > 0) i++;
+	if (a[8] > 0) i++;
+	if (a[9] > 0) i++;
+	cout << i;*/
+
+	vector <int> num{ 16,4,33,8 };
+	int atb;
+	cout << num[0] << num[1] << num[2] << num[3];
+	cout << "enter number";
+	cin >> atb;
+
+	if (num[0] == atb)cout << "ir saraksta" << "ir sarakst" << endl;
+	if (num[1] == atb)cout << "ir saraksta" << "ir sarakst" << endl;
+	if (num[2] == atb)cout << "ir saraksta" << "ir sarakst" << endl;
+	if (num[3] == atb)cout << "ir saraksta" << "ir sarakst" << endl;
+	if (num[0] != atb && num[1] != atb && num[2] != atb && num[3] != atb) cout << "tada nav";
+
